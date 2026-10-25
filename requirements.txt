@@ -16,3 +16,4 @@ nibabel>=5.2
 scipy>=1.12
 pytest>=8
 matplotlib
+reportlab
