@@ -1,0 +1,14 @@
+{
+  "patient_id": "LIDC-IDRI-0010",
+  "prediction_source": "C:\\Users\\Harsha\\Downloads\\MediFederate_AI_Final_ResNet18_CT_Cloud_v3\\MediFederate_AI_Final_ResNet18_v3\\results\\ct_predictions\\LIDC-IDRI-0010",
+  "number_of_prediction_slices": 14,
+  "number_of_3d_components": 3,
+  "spacing_mm": {
+    "x": 0.878906,
+    "y": 0.878906,
+    "z": 1.25
+  },
+  "threshold": 0.8,
+  "minimum_component_voxels": 20,
+  "total_predicted_volume_cm3": 4.102812
+}

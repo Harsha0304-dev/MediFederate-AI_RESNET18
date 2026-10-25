@@ -1,0 +1,47 @@
+[
+  {
+    "patient_id": "LIDC-IDRI-0010",
+    "component_id": 1,
+    "voxel_count": 1886,
+    "first_slice": 67,
+    "last_slice": 69,
+    "slice_count": 3,
+    "width_mm": 29.004,
+    "height_mm": 27.246,
+    "depth_mm": 3.75,
+    "area_mm2": 1456.889,
+    "volume_mm3": 1821.112,
+    "volume_cm3": 1.821112,
+    "equivalent_diameter_mm": 15.151
+  },
+  {
+    "patient_id": "LIDC-IDRI-0010",
+    "component_id": 2,
+    "voxel_count": 1976,
+    "first_slice": 92,
+    "last_slice": 96,
+    "slice_count": 5,
+    "width_mm": 26.367,
+    "height_mm": 25.488,
+    "depth_mm": 6.25,
+    "area_mm2": 1526.412,
+    "volume_mm3": 1908.015,
+    "volume_cm3": 1.908015,
+    "equivalent_diameter_mm": 15.388
+  },
+  {
+    "patient_id": "LIDC-IDRI-0010",
+    "component_id": 14,
+    "voxel_count": 387,
+    "first_slice": 207,
+    "last_slice": 212,
+    "slice_count": 6,
+    "width_mm": 9.668,
+    "height_mm": 13.184,
+    "depth_mm": 7.5,
+    "area_mm2": 298.948,
+    "volume_mm3": 373.685,
+    "volume_cm3": 0.373685,
+    "equivalent_diameter_mm": 8.937
+  }
+]
