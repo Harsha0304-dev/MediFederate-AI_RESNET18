@@ -1,0 +1,49 @@
+project:
+  name: MediFederate AI
+  seed: 42
+  device: auto
+
+xray:
+  image_size: 224
+  classes: [NORMAL, PNEUMONIA]
+  train_dir: data/processed/xray/train
+  validation_dir: data/processed/xray/validation
+  test_dir: data/processed/xray/test
+  checkpoint: models/resnet18_xray.pt
+
+model:
+  architecture: resnet18
+  pretrained: true
+  dropout: 0.2
+
+training:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  local_epochs: 1
+
+federated:
+  clients: 3
+  rounds: 5
+  iid: true
+  dirichlet_alpha: 0.30
+  clipping_norm: 1.0
+  dp_noise_multiplier: 0.1
+  quantization_bits: 8
+
+ct:
+  image_dir: data/ct/images
+  mask_dir: data/ct/masks
+  checkpoint: models/unet_ct.pt
+
+aws:
+  region: ap-south-1
+  bucket: ""
+  dataset_prefix: datasets
+  model_prefix: models
+  results_prefix: results
+
+openai:
+  enabled: false
+  model: gpt-5.6-mini
